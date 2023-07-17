@@ -23,8 +23,7 @@ public class Employee {
     private Double totalCompensation;
 
 
-    public Employee(Long id, String fName, String lName, Integer yearsExperience) {
-        this.id = id;
+    public Employee( String fName, String lName, Integer yearsExperience) {
         this.fName = fName;
         this.lName = lName;
         this.yearsExperience = yearsExperience;
